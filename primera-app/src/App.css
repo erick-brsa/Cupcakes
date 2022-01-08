@@ -1,0 +1,38 @@
+.cupcake-container {
+	grid-template-columns: repeat( auto-fit, minmax(210px, 1fr) );
+	max-width: 1240px;
+	margin: 5rem auto;
+	display: grid;
+	padding: 1rem;
+	width: 80%;
+}
+.cupcake__card {
+	background-color: #fff;
+	box-shadow: 4px 4px 15px 0px#DFE0E0;
+	border-radius: 15px;
+	padding: 1rem;
+	margin: 15px;
+	transition: 0.5s;
+}
+.cupcake__card:hover {
+	box-shadow: 4px 4px 15px 4px#DFE0E0;
+}
+.cupcake__color {
+	text-transform: capitalize;
+}
+.cupcake__foto {
+	width: 100%;
+}
+.cupcake__state span{
+	font-weight: 500;
+}
+.cupcake__button {
+	background-color: #5C87F7;
+	color: #FFF;
+	border: none;
+	padding: .5rem;
+	border-radius: 5px;
+}
+.cupcake__button:hover {
+	background-color: #3366e6;
+}
